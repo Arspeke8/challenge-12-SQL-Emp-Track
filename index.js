@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const cTable = require('console.table');
-const connect = require('./db/connection.js');
+const connect = require('./db/connection');
 
 let currentRole = [];
 let currentEmployee = [];
