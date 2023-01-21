@@ -33,7 +33,7 @@ require('dotenv').config();
 
 
 const pool = mysql.createPool({
-    host: 'localhost',
+    host: '127.0.0.1',
     user: 'root',
     password: process.env.DB_PASSWORD,
     database: 'employee_tracker_db'
