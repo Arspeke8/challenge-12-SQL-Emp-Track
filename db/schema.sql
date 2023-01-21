@@ -17,8 +17,12 @@
 --     ON DELETE SET NULL
 -- );
 
+
+
 DROP DATABASE IF EXISTS employee_tracker_db;
 CREATE DATABASE employee_tracker_db;
+
+use employee_tracker_db;
 
 CREATE TABLE department (
     id INT PRIMARY KEY AUTO_INCREMENT,
