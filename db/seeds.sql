@@ -14,3 +14,29 @@
 --        (1, "Hakuna matata"),
 --        (5, "Those flying monkeys are nightmare fuel!");
        
+INSERT INTO department (name)
+VALUES ("Sales"),
+       ("Engineering"),
+       ("Finance"),
+       ("Legal");
+
+INSERT INTO role (title, salary, department_id)
+VALUES ("Sales Lead", 100000, 1),
+       ("Salesperson", 80000, 1),
+       ("Lead Engineer", 120000, 2),
+       ("Software Engineer", 100000, 2),
+       ("Accountant", 125000, 3),
+       ("Legal Team Lead", 130000, 4),
+       ("Lawyer", 120000, 4);
+
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES
+    ("John", "Doe", 1, NULL),
+    ("Jane", "Doe", 2, 1),
+    ("Sally", "Rally", 3, NULL),
+    ("Mark", "Smith", 4, 3),
+    ("Bill", "Jones", 5, NULL),
+    ("Jennifer", "Jones", 6, NULL),
+    ("Bob", "Smith", 7, 6);
+
+    
