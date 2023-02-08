@@ -22,7 +22,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 # Learned how to use MySQL and Inquirer to create a command-line application
 
-# Video Link: 
+# Video Link: https://drive.google.com/file/d/1qLlpulZN7rtt0vwp_MtR16SeWXg_wV7O/view
 
 # Ryan Dong
 
